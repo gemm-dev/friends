@@ -7,6 +7,7 @@ rsconnect::setAccountInfo(name='gemmashay',
 
 ui = shinyUI(fluidPage(
                        tags$head(
+                         HTML('<title>Which Friends Character Are You?</title>'),
                        tags$style(HTML("
                                          @import url('//fonts.googleapis.com/css?family=Lobster|Cabin:400,700');
                                          
@@ -45,7 +46,7 @@ mainPanel(
   HTML('<br><br>'),
   p("Make sure you are linking only to an image, not an entire web page. 
     Results should take around 5-10 seconds to appear, unless the API transactions/minute limit has been reached. 
-    Contact gshay@wesleyan.edu for more info."), HTML('<a href="github.com/gemm-dev/friends">Source Code</a>')
+    Contact gshay@wesleyan.edu for more info."), HTML('<a href="https://github.com/gemm-dev/friends">Source Code</a>')
 )))
 
 
