@@ -3,7 +3,7 @@ library(shinythemes)
 
 rsconnect::setAccountInfo(name='gemmashay',
                           token='74B459A54DB2D878F56ABCEE48F87883',
-                          secret='EdL7BxRZzhvaoYSJhEbJFnQJZgQsJwcTDEnDNfMi')
+                          secret='<SECRET>') #replace this with your secret token
 
 ui = shinyUI(fluidPage(
                        tags$head(
